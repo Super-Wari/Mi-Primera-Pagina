@@ -1,51 +1,56 @@
 <!DOCTYPE html>
 <html>
-  <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE edge">
-      <meta name="=viewport" content="width-device-width, initial-scale-1.0"> <!--Esta etiqueta define cómo el contenido debe ser renderizado en diferentes dispositivos.-->
-      <title>Clase 8</title>
-      <link rel="stylesheet" type="text/css" href="styles.css" />
-      <script src="script.js"></script>
-  </head>
-  
-  <body>
 
-    <header class="container-nav">
-        <nav class="navbar" role="navigation">
-            <!-- Contenido de la barra de navegación -->
-            <a href="#" class="brand">Mi página web</a>
-            <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="nosotros.html">About</a></li>
-            <li><a href="servicios.html">Services</a></li>
-            <li><a href="contacto.html">Contact</a></li>
-            </ul>
-        </nav>
-        <button class="button-menu-toggle">Menu</button>
-    </header>    
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE edge">
+  <meta name="=viewport" content="width-device-width, initial-scale-1.0">
+  <!--Esta etiqueta define cómo el contenido debe ser renderizado en diferentes dispositivos.-->
+  <title>Clase 8</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <script src="script.js"></script>
+</head>
 
-    <main>
+<body>
 
-        <!-- Contenido principal -->
+  <header class="container-nav">
+    <nav class="navbar" role="navigation">
+      <!-- Contenido de la barra de navegación -->
+      <a href="#" class="brand">Mi página web</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="nosotros.html">About</a></li>
+        <li><a href="servicios.html">Services</a></li>
+        <li><a href="contacto.html">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="button-menu-toggle">Menu</button>
+  </header>
 
-        <p>Contenido Principal</p>
-        <div class="container">
-            <h1>Acerca de</h1>
-            <p>¡Bienvenido a nuestra página “Acerca de”! Aquí, aprenderás más sobre nuestra empresa y los servicios que ofrecemos.</p>
-            <div class="imagenes">
-            <img src="IMG_0174.JPG" alt="Descripción de la imagen 1" />
-            <img src="IMG_0181.JPG" alt="Descripción de la imagen 2" />
-            <img src="IMG_0199.JPG" alt="Descripción de la imagen 3" /> 
-            </div>
-        </div>    
-    </main>
+  <main>
+    <div class="greeting">
 
-    <footer class="container">
-      <p>Este es el footer de mi pagina</p>
-      <button onClick="showAlert()" aria-label="Haz clic en mí">¡Haz clic en mí!</button>     
-    </footer>
+    <!-- Contenido principal -->
 
-  </body>
+    <p>Contenido Principal</p>
+    <div class="container">
+      <h1>Acerca de</h1>
+    </div>
+    <p>¡Bienvenido a nuestra página “Acerca de”! Aquí, aprenderás más sobre nuestra empresa y los servicios que
+      ofrecemos.</p>
+    <div class="imagenes">
+      <img src="IMG_0174.JPG" alt="Descripción de la imagen 1" />
+      <img src="IMG_0181.JPG" alt="Descripción de la imagen 2" />
+      <img src="IMG_0199.JPG" alt="Descripción de la imagen 3" />
+    </div>
+    </div>
+  </main>
+
+  <footer class="container">
+    <p>Este es el footer de mi pagina</p>
+    <button onClick="showAlert()" aria-label="Haz clic en mí">¡Haz clic en mí!</button>
+  </footer>
+
+</body>
 
 </html>
