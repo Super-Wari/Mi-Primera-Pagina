@@ -45,6 +45,20 @@ a {
   display: none;
 }
 
+.container {
+  padding: 10px;
+  border: 2px solid violet;
+  margin: 200x 200px 0px 0px;
+  text-align: center;
+}
+
+
+.greeting {
+  text-align: center;
+}
+
+
+
 /*Este código oculta los enlaces de navegación y muestra el botón “Menú” en pantallas con un ancho de 768 píxeles o menos, y utiliza una clase extra para poder hacer que el botón menú despliegue los enlaces .*/
 
 @media (max-width: 768px) {
@@ -86,10 +100,4 @@ a {
 
 
   }
-}
-
-
-
-.greeting {
-  text-align: center;
 }
